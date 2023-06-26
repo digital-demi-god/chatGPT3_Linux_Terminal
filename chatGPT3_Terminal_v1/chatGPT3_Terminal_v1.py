@@ -7,7 +7,7 @@ import datetime
 
 def main():
     # Load OpenAI credentials from environment variables
-    os.environ['OPENAI_API_KEY'] = 'OPENAI_APIKEY_HERE'
+    os.environ['OPENAI_API_KEY'] = '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'
     openai.api_key = os.environ["OPENAI_API_KEY"]
     model_engine = "text-davinci-002"
 
